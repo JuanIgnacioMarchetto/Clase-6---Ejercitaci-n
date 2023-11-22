@@ -1,6 +1,7 @@
-App {
+body {
     margin: 0;
     padding: 0;
+    background-color: rgb(18, 70, 14);
 }
 .container {
     display: flex;
@@ -11,6 +12,7 @@ App {
 .grid-item {
     background-color: #fff;
     border-radius: 5px;
+    padding: 1%;
     box-shadow: 0 5px 5px rgba(97, 10, 10, 0.2);
 }
 label {
