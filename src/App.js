@@ -4,7 +4,9 @@ function App()
 {
   <div>
 
-<Form></Form>
+<Form/>
 
   </div>
 }
+; 
+export default App;
