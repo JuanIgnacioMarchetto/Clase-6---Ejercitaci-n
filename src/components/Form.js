@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'Form';
 
-class RegistroPagina extends React.Component {
+class Form extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -96,4 +96,4 @@ class RegistroPagina extends React.Component {
     }
 }
 
-export default RegistroPagina;
+export default Form;
