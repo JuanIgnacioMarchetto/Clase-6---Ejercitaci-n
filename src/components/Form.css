@@ -3,15 +3,21 @@ body {
     padding: 0;
     background-color: rgb(18, 70, 14);
 }
+h2{
+    position: absolute;
+    top: 2%;
+}
 .container {
+    margin-top: 3.3em;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vb;
 }
 .grid-item {
-    background-color: #fff;
+        background-color: #fff;
     border-radius: 5px;
+   
     padding: 1%;
     box-shadow: 0 5px 5px rgba(97, 10, 10, 0.2);
 }
@@ -19,10 +25,12 @@ label {
   display: block;
   border-radius: 10px;
   margin-bottom: 8px;
+  
   font-weight: bold;
   border: rgb(18, 12, 68) 3px solid;
 }
 input{
+    margin-left:8px;
     border-radius: 8px;
    width: 90%;
     height: auto;
@@ -30,7 +38,7 @@ input{
     padding: 8px;
     margin-bottom: 8px;
     border: rgb(18, 12, 68) 3px solid;
-    
+   
 }
 button {
     display: flex;
