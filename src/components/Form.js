@@ -21,6 +21,7 @@ class Form extends React.Component {
 
     render() {
         return (
+            <div className='general'>
             <div className='container'>
                 
                 <div>
@@ -91,6 +92,7 @@ class Form extends React.Component {
                     </form>
                 </div>
             </div>
+        </div>
         );
     }
 }
