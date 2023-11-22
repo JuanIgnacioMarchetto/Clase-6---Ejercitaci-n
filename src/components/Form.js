@@ -1,5 +1,4 @@
-import React from 'Form';
-
+import React from 'react';
 class Form extends React.Component {
     constructor(props) {
         super(props);
@@ -20,7 +19,7 @@ class Form extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='container'>
                 <h2>Registro</h2>
                 <form>
                     <label>
@@ -96,4 +95,10 @@ class Form extends React.Component {
     }
 }
 
+
 export default Form;
+
+
+
+
+
