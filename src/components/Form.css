@@ -17,8 +17,10 @@ body {
 }
 label {
   display: block;
+  border-radius: 10px;
   margin-bottom: 8px;
   font-weight: bold;
+  border: rgb(18, 12, 68) 3px solid;
 }
 input{
     border-radius: 8px;
@@ -27,7 +29,21 @@ input{
     box-shadow: 0 0 34px rgba(97, 10, 10, 0.2);
     padding: 8px;
     margin-bottom: 8px;
+    border: rgb(18, 12, 68) 3px solid;
     
 }
-button {}
+button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    box-shadow: 0 0 34px rgba(97, 10, 10, 0.2);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: rgb(18, 12, 68) 3px solid;
+}
 
