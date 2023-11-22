@@ -22,10 +22,11 @@ class Form extends React.Component {
     render() {
         return (
             <div className='container'>
-                <h2>Registro</h2>
+                
                 <div>
 
                     <form className='grid-container'>
+                        <h2>Registro</h2>
                         <label className='grid-item'>
                             Nombre:
                             <input
